@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Itim", cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #08090a;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+}
+
+.background {
+  padding: 50px 10px;
+}
+
+.container {
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 300px;
+  width: 90vw;
+}
+
+.tile {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  cursor: pointer;
+  transition: all 0.3s;
+  aspect-ratio: 1 / 1; 
+}
+
+.tile:hover {
+  background-color: #ccc;
+}
+
+.playerX {
+  color: #09c372;
+}
+
+.playerO {
+  color: #498afb;
+}
+
+
