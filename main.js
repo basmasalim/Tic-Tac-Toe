@@ -51,7 +51,6 @@ function checkWinner() {
             return squares[a];
         }
     }
-
     return null;
 }
 
