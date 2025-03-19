@@ -2,6 +2,9 @@
 
 A simple **Tic Tac Toe** game built with **HTML, CSS, and JavaScript**. Play against a friend in this classic turn-based game!
 
+![image](https://github.com/user-attachments/assets/f6eb4571-2621-4dd2-9f0d-d2bbce857956)
+
+
 ## 🖥️ Live Demo
 Check out the game: [Live Demo](https://basmasalim.github.io/Tic-Tac-Toe/)
 
